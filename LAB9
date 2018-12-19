@@ -37,7 +37,7 @@ begin
 			"1110" when others;
 	
 	with saQ_Cnt (19 downto 18) select
-	saDgt <= saDat (3 downto 0) when "000",
+	saDgt <= saDat (3 downto 0) when "00",
 			 saDat (7 downto 4) when "01",
 			 saDat (11 downto 8) when "10",
 			 saDat (15 downto 12) when others;
